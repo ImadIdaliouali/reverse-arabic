@@ -24,7 +24,6 @@ function App() {
   };
 
   const onKeyPress = (button) => {
-    console.log("Button pressed", button);
     if (button === "{shift}" || button === "{lock}") handleShift();
   };
 
